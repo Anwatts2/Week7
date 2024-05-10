@@ -1,0 +1,19 @@
+function app (){
+    let first_name = "Ashley";
+    let last_name = "Watts";
+    let question = "How are you?";
+    let greeting_message = greeting("first_name","last_name", "question")
+    console.log(greeting_message)
+    console.log(`The answer to your question is: ${random_number === 1 ? 'Yes' : 'No'}`);
+}
+
+function greeting (first_name, last_name, question) {
+    return greeting + ' ' + first_name + ' ' + last_name + '. ' + question;
+    const app = greeting
+}
+
+function get_random_number() {
+    let random_number = Math.floor(Math.random() * 2) + 1;
+    return random_number;
+}
+app();
